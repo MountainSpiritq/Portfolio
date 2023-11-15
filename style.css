@@ -1,7 +1,36 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 nav{
-    background-color:#474954;
+    background-color:#320E3B;
+   
+}
+body{
+    background-color:#440654 !important;
+}
+
+.container{
+    background-color: #4a1557;
+}
+.nav-link{
+    color: #7F96FF;
+}
+
+.navbar-brand{
+    color: #C33149;
+}
+.nev{
+    color: #C33149;
+}
+p{
+    color: #7F96FF;
+}
+h1{
+    color: whitesmoke !important;
+}
+.creator{
+    max-height: 50%;
+    
 }
