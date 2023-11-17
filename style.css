@@ -4,28 +4,29 @@
 }
 
 nav{
-    background-color:#320E3B;
+    background-color:#29339b;
+    border-bottom: 2px solid #99e1d9;
    
 }
 body{
-    background-color:#440654 !important;
+    background-color:#27476E !important;
 }
 
 .container{
-    background-color: #4a1557;
+    background-color: #27476E;
 }
 .nav-link{
-    color: #7F96FF;
+    color: whitesmoke;
 }
 
 .navbar-brand{
-    color: #C33149;
+    color: #e7bb41;
 }
 .nev{
-    color: #C33149;
+    color: #e7bb41;
 }
 p{
-    color: #7F96FF;
+    color: #99e1d9;
 }
 h1{
     color: whitesmoke !important;
