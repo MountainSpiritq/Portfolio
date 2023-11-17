@@ -13,7 +13,8 @@ body{
 }
 
 .container{
-    background-color: #27476E;
+    
+    
 }
 .nav-link{
     color: whitesmoke;
@@ -31,7 +32,18 @@ p{
 h1{
     color: whitesmoke !important;
 }
-.creator{
-    max-height: 50%;
-    
+
+.hello{
+    background-color: #27476E;
+    border: 6px solid;
+    margin-bottom: 16px;
 }
+.creator{
+    height: 20rem;
+    width: 20rem;
+}
+.navbar-toggler-icon{
+    color: #99e1d9;
+    background-color: royalblue;
+}
+
