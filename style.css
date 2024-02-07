@@ -46,4 +46,25 @@ h1{
     color: #99e1d9;
     background-color: royalblue;
 }
+.panels{
+    min-height: 100vh;
+    
+    display: flex;
+}
 
+.panel{
+    color: whitesmoke;
+    flex:1;
+    background-color: cadetblue;
+    text-transform: uppercase;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    background-position: center;
+    transition: cubic-bezier(.17,.67,.83,.67) 0.5s;
+}
+.open{
+    flex: 5;
+}
