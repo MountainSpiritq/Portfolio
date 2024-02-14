@@ -1,4 +1,5 @@
 import { about } from "./about.js";
+import { renderProjects } from "./projects.js";
 
 const routes = {
     "home":"home.html",
@@ -16,6 +17,9 @@ const loadPage = async(url, domObj) => {
     domObj.innerHTML = html;
     if(url=='about.html'){
         about()
+    }
+    if(url=='projects.html'){
+        renderProjects()
     }
 }
 
