@@ -4,12 +4,12 @@
 }
 
 nav{
-    background-color:#29339b;
-    border-bottom: 2px solid #99e1d9;
+    background-color:#25222294;
+    border-bottom: 2px solid rgb(164, 15, 8);
    
 }
 body{
-    background-color:#27476E !important;
+    background-color:#242425 !important;
 }
 
 .container{
@@ -34,8 +34,8 @@ h1{
 }
 
 .hello{
-    background-color: #27476E;
-    border: 6px solid;
+    background-color: #3f373794;
+    border: 6px solid rgb(164, 15, 8);
     margin-bottom: 16px;
 }
 .creator{
@@ -44,7 +44,7 @@ h1{
 }
 .navbar-toggler-icon{
     color: #99e1d9;
-    background-color: royalblue;
+    background-color: rgba(2, 4, 9, 0.619);
 }
 .panels{
     min-height: 100vh;
