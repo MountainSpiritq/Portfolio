@@ -12,15 +12,15 @@ export const renderProjects=()=>{
             document.querySelector('.MyProjects').innerHTML+=`
             <h1 class="mb-4">Project Showcase</h1>
     
-            <div class="card project-card">
-                <div class="card-body">
-                    <img class="projectImg" src="${e.image}" alt="">
+            
+                <div class="card-body rounded">
+                    <img class="projectImg rounded m-2" src="${e.image}" alt="">
                     <h5 class="card-title">${e.name}</h5>
                     <p class="card-text">${e.descr}</p>
                    
                     <a href="#" class="btn btn-primary">View Project</a>
                 </div>
-            </div>    
+            
             `
         })
     }

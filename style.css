@@ -74,3 +74,11 @@ h1{
     width: 300px;
     object-fit: cover;
 }
+
+.card-body{
+    width: 400px;
+    background-color: #3f373794;
+    color: whitesmoke;
+    border: 2px solid rgb(164, 15, 8);
+}
+
