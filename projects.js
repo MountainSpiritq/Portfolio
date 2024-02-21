@@ -18,7 +18,7 @@ export const renderProjects=()=>{
                     <h5 class="card-title">${e.name}</h5>
                     <p class="card-text">${e.descr}</p>
                    
-                    <a href="#" class="btn btn-primary">View Project</a>
+                    <a target="_blank" href="${e.hosted}" class="btn btn-primary">View Project</a>
                 </div>
             
             `
