@@ -68,3 +68,9 @@ h1{
 .open{
     flex: 5;
 }
+
+.projectImg{
+    height: auto;
+    width: 300px;
+    object-fit: cover;
+}

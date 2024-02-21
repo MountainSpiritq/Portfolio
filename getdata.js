@@ -1,6 +1,6 @@
-export const getData=async(render)=>{
-    const response=await fetch('https://raw.githubusercontent.com/MountainSpiritq/portfolio_data/main/portfolio.json')
+export const getData=async(url,FcName)=>{
+    const response=await fetch(url)
     const data=await response.json()
     
-    render(data)
+    FcName(data)
 }

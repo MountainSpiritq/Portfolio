@@ -6,21 +6,23 @@ const routes = {
     "": "home.html",
     'about' : "about.html",
     'contact' : "contact.html",
-    'projects' : "project.html"
+    'project' : "project.html"
     }
     
 
 const loadPage = async(url, domObj) => {
-    console.log(url)
+    console.log(url,url.length)
     const response = await fetch(url);
     const html = await response.text();
     domObj.innerHTML = html;
     if(url=='about.html'){
         about()
     }
-    if(url=='projects.html'){
+    if(url=='project.html'){
+        console.log('oké')
         renderProjects()
     }
+    
 }
 
 let obj = document.querySelector(".container");
